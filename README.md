@@ -1,5 +1,20 @@
 # Spawner Pickup
+This plugin allows a player mine a monster spawner with a golden pickaxe and be able to set what the spawners spawn.
 
-What it says in the name use a golden pickaxe to pickup a spawner and be able to set the spawner to any mob this can be used to make mob farms to get items.
+# Commands
+/setspawner <mob>
+/spawnerchange <mob> <player> (Groups with the spawnerpickup.setspawner.others permission can do this command)
 
-this will be updated sometime soon :P
+# Permissions
+spawnerpickup.use (Use for the mining of the spawner)
+
+spawnerpickup.setspawner (Use for the /setspawner command)
+
+spawnerpickup.setspawner.others (Admin permission to change the players mobspawner if there has been a change by a cheeky player)
+
+# Compiling
+Compiling is done via maven. To compile a JAR, cd into the Project Poseidon directory and run the following command:
+
+`mvn clean package`
+
+You should now have a runnable JAR inside the /target folder
