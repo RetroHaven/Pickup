@@ -6,9 +6,10 @@ author: Lilly E (retrorandom)
 
 commands:
   setspawner:
-    description: Sets the mob type for a spawner.
-    usage: /setspawner <mob>
+    description: Sets the mob type for a spawner. OPs can change other players' spawners.
+    usage: /setspawner <mob> [player]
     permission: spawnerpickup.setspawner
+    aliases: [spawnerchange, spawneredit]
 
 permissions:
   spawnerpickup.use:
@@ -16,4 +17,7 @@ permissions:
     default: op
   spawnerpickup.setspawner:
     description: Allows changing mob spawner type.
+    default: op
+  spawnerpickup.setspawner.others:
+    description: Allows changing other players' mob spawner type.
     default: op
