@@ -13,7 +13,7 @@ spawnerpickup.setspawner (Use for the /setspawner command)
 spawnerpickup.setspawner.others (Admin permission to change the players mobspawner if there has been a change by a cheeky player)
 
 # Compiling
-Compiling is done via maven. To compile a JAR, cd into the Project Poseidon directory and run the following command:
+Compiling is done via maven. To compile a JAR, cd into the directory and run the following command:
 
 `mvn clean package`
 
