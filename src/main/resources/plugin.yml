@@ -1,0 +1,19 @@
+name: SpawnerPickup
+main: com.retrohaven.spawnerpickup.SpawnerPickup
+version: 1.0
+description: Allows players to mine spawners with a golden pickaxe and change spawner mobs.
+author: Lilly E (retrorandom)
+
+commands:
+  setspawner:
+    description: Sets the mob type for a spawner.
+    usage: /setspawner <mob>
+    permission: spawnerpickup.setspawner
+
+permissions:
+  spawnerpickup.use:
+    description: Allows breaking spawners with a golden pickaxe.
+    default: op
+  spawnerpickup.setspawner:
+    description: Allows changing mob spawner type.
+    default: op
