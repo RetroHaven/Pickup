@@ -17,7 +17,7 @@ import java.util.UUID;
 public class SetSpawnerCommand implements CommandExecutor {
 
     private final List<String> validMobs = Arrays.asList(
-        "Pig", "Sheep", "Cow", "Chicken", "Zombie", "Creeper", "Skeleton", "Spider"
+        "Pig", "Sheep", "Cow", "Chicken", "Zombie", "Creeper", "Skeleton", "Spider", "Squid", "Slime"
     );
 
     @Override
