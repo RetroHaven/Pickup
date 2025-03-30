@@ -1,12 +1,12 @@
-# Spawner Pickup
-This plugin allows a player mine a monster spawner with a golden pickaxe and be able to set what the spawners spawn.
+# Pickup
+This plugin allows a player mine unotainable blocks (Ice, Grass, Glass etc...)
 
-# Commands
+# Spawner Commands
 `/setspawner <mob>`
 
 `/spawnerchange <mob> <player> (Groups with the spawnerpickup.setspawner.others permission can do this command)`
 
-# Permissions
+# Spawner Permissions
 `spawnerpickup.use (Use for the mining of the spawner)`
 
 `spawnerpickup.setspawner (Use for the /setspawner command)`
