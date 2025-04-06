@@ -22,6 +22,7 @@ Clay Block
 <br>
 Cake
 <br>
+Mob Spawners
 </details>
 
 If you have a suggestion on what should be added to this plugin then let me know! open a issue with the **Suggestion** tag or make a pull request and I will take a look at it.
