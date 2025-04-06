@@ -1,5 +1,30 @@
 # Pickup
-This plugin allows a player mine unotainable blocks (Ice, Grass, Glass etc...)
+The Pickup plugin allows players to mine otherwise unobtainable blocks, such as:
+<details>
+<summary>Block List</summary>
+Grass
+<br>
+Glass
+<br>
+Glowstone
+<br>
+Ice
+<br>  
+Snow Block
+<br>
+Snow
+<br> 
+Cobblestone Stairs
+<br>
+Wood Stairs
+<br>
+Clay Block
+<br>
+Cake
+<br>
+</details>
+
+If you have a suggestion on what should be added to this plugin then let me know! open a issue with the **Suggestion** tag or make a pull request and I will take a look at it.
 
 # Spawner Commands
 `/setspawner <mob>`
