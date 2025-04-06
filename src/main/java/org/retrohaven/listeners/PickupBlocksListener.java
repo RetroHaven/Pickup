@@ -81,22 +81,6 @@ public class PickupBlocksListener implements Listener {
             }
         }
 
-        if (block.getType() == Material.LONG_GRASS) {
-            if (player.getItemInHand().getType() == Material.GOLD_PICKAXE && player.hasPermission("pickup.use")) {
-                event.setCancelled(true);
-                block.setType(Material.AIR);
-                block.getWorld().dropItemNaturally(block.getLocation(), new ItemStack(Material.LONG_GRASS, 1));
-            }
-        }
-
-        if (block.getType() == Material.DEAD_BUSH) {
-            if (player.getItemInHand().getType() == Material.GOLD_PICKAXE && player.hasPermission("pickup.use")) {
-                event.setCancelled(true);
-                block.setType(Material.AIR);
-                block.getWorld().dropItemNaturally(block.getLocation(), new ItemStack(Material.DEAD_BUSH, 1));
-            }
-        }
-
         if (block.getType() == Material.CLAY) {
             if (player.getItemInHand().getType() == Material.GOLD_SPADE && player.hasPermission("pickup.use")) {
                 event.setCancelled(true);
