@@ -74,7 +74,7 @@ public class PickupBlocksListener implements Listener {
         }
 
         if (block.getType() == Material.WOOD_STAIRS) {
-            if (player.getItemInHand().getType() == Material.GOLD_SWORD && player.hasPermission("pickup.use")) {
+            if ((player.getItemInHand().getType() == Material.GOLD_SWORD || player.getItemInHand().getType() == Material.GOLD_AXE) && player.hasPermission("pickup.use")) {
                 event.setCancelled(true);
                 block.setType(Material.AIR);
                 block.getWorld().dropItemNaturally(block.getLocation(), new ItemStack(Material.WOOD_STAIRS, 1));
