@@ -1,8 +1,7 @@
-package com.retrohaven.spawnerpickup.commands;
+package org.retrohaven.commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
-import org.bukkit.OfflinePlayer;
 import org.bukkit.block.Block;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -12,7 +11,6 @@ import net.minecraft.server.TileEntityMobSpawner;
 import org.bukkit.craftbukkit.CraftWorld;
 import java.util.Arrays;
 import java.util.List;
-import java.util.UUID;
 
 public class SetSpawnerCommand implements CommandExecutor {
 

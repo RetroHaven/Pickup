@@ -1,4 +1,4 @@
-package com.retrohaven.spawnerpickup.listeners;
+package org.retrohaven.listeners;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;
