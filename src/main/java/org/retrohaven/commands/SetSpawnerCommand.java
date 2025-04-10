@@ -27,7 +27,7 @@ public class SetSpawnerCommand implements CommandExecutor {
 
         Player player = (Player) sender;
 
-        if (!player.hasPermission("spawnerpickup.setspawner")) {
+        if (!player.hasPermission("pickup.setspawner")) {
             player.sendMessage("§cYou don't have permission to use this command!");
             return true;
         }
@@ -47,7 +47,7 @@ public class SetSpawnerCommand implements CommandExecutor {
 
         Player targetPlayer = player;
         if (args.length == 2) {
-            if (!player.hasPermission("spawnerpickup.setspawner.others")) {
+            if (!player.hasPermission("pickup.setspawner.others")) {
                 player.sendMessage("§cYou don't have permission to change other players' spawners!");
                 return true;
             }

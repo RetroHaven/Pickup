@@ -17,7 +17,7 @@ public class SpawnerBreakListener implements Listener {
 
         if (block.getType() == Material.MOB_SPAWNER) {
             if (player.getItemInHand().getType() == Material.GOLD_PICKAXE) {
-                if (player.hasPermission("spawnerpickup.use")) {
+                if (player.hasPermission("pickup.use")) {
                     event.setCancelled(true);
                     block.setType(Material.AIR);
                     block.getWorld().dropItemNaturally(block.getLocation(), new ItemStack(Material.MOB_SPAWNER, 1));
