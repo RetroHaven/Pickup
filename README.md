@@ -48,3 +48,5 @@ You should now have a runnable JAR inside the /target folder
 
 # TODO:
 Add the ablility to get ores
+Rewrite the plugin because the code looks like fucking spaghetti
+Add protections via UUID so no normal player can change another players spawner only OPs
