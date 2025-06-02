@@ -45,3 +45,6 @@ Compiling is done via maven. To compile a JAR, cd into the directory and run the
 `mvn clean package`
 
 You should now have a runnable JAR inside the /target folder
+
+# TODO:
+Add the ablility to get ores
